@@ -1,0 +1,29 @@
+{
+  "name": "paws_claws",
+  "version": "1.0.0",
+  "description": "backend para el proyecto paws and claws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "María Fernanda Tibanta - David Hernández",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.23.0",
+    "mongoose": "^5.4.2",
+    "mongoose-pagination": "^1.0.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^5.1.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
